@@ -1,1 +1,1 @@
-Hi! Thi sis my personal portfolio, check it out!
+Hi! This is my personal portfolio, check it out!
