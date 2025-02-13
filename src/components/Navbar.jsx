@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const navLinks = [
-  { title: "Home", path: "#hero" },
   { title: "About", path: "#about" },
   { title: "Portfolio", path: "#portfolio" },
   { title: "Stack", path: "#stack" },
