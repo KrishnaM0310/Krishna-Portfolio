@@ -53,7 +53,7 @@ const projects = [
     desc: "The website you are on right now!",
     devstack: "React, Tailwind CSS, Javascript, Framer Motion",
     link: "#",
-    git: "#",
+    git: "https://github.com/KrishnaM0310/Krishna-Portfolio/tree/main",
     src: proj5,
     type: "frontend",
   },
