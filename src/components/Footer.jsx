@@ -57,7 +57,7 @@ export const Footer = () => {
               <AiOutlineLinkedin size={30} />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/krishna_m100/"
               aria-label="Instagram"
               className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
             >
