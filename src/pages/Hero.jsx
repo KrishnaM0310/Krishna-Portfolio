@@ -4,7 +4,7 @@ import profilepic from "../assets/images/memojipfp.png";
 
 export const Hero = () => {
   const handleResumeClick = () => {
-    window.open("/Krishna_Software_Engineer_Resume_Website.pdf", "_blank");
+    window.open("/Krishna_Software_Engineer_Resume_Website (1).pdf", "_blank");
   };
 
   const handleContactClick = () => {
