@@ -1,13 +1,13 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import proj1 from "../assets/images/icon.png";
+import proj1 from "../assets/images/mc.png";
 import proj2 from "../assets/images/neurative.webp";
 import proj3 from "../assets/images/walmart.png";
 import proj4 from "../assets/images/switchhealth.jpg";
 import proj5 from "../assets/images/websitepic.png";
 import proj6 from "../assets/images/dog.png";
-import proj7 from "../assets/images/sds.png";
+import proj7 from "../assets/images/icons.png";
 
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
