@@ -1,13 +1,11 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import proj1 from "../assets/images/icon.png";
-import proj2 from "../assets/images/dog.png";
-import proj3 from "../assets/images/sds.png";
-import proj4 from "../assets/images/neurative.webp";
-import proj5 from "../assets/images/walmart.png";
-import proj6 from "../assets/images/switchealth.png";
-import proj7 from "../assets/images/websitepic.png";
+import proj1 from "../assets/images/neuralnetwork.jpg";
+import proj2 from "../assets/images/neurative.webp";
+import proj3 from "../assets/images/walmart.png";
+import proj4 from "../assets/images/switchhealth.jpg";
+import proj5 from "../assets/images/websitepic.png";
 
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -16,38 +14,20 @@ import { FiChevronDown } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Mission Complete - AI Powered Chrome Extension",
-    desc: "An AI-powered Chrome extension that blocks distractions by analyzing browsing behavior in real time.",
-    devstack: "Python, Flask, Javascript, HTML/CSS, GCP",
-    link: "https://github.com/KrishnaM0310/mission-complete",
-    git: "https://github.com/KrishnaM0310/mission-complete",
-    src: proj1,
-    type: "Full Stack",
-  },
-  {
     title: "Fur and Friends",
-    desc: "A full-stack web application to connect the elderly with volunteers and therapy pets to reduce loneliness",
-    devstack: "MongoDB, React.js, Node,js, Javascript, TensorFlow.js, spaCy ",
-    link: "https://github.com/KrishnaM0310/Fur-and-friends",
-    git: "https://github.com/KrishnaM0310/Fur-and-friends",
-    src: proj2,
-    type: "Full Stack",
-  },
-  {
-    title: "Save, Don't Stress",
-    desc: "Developed a full-stack web app to help users find the cheapest grocery items near them to tackle rising grocery prices",
-    devstack: "React.js, CSS, Node.js, Express, GCP",
-    link: "https://github.com/KrishnaM0310/SaveDontStress",
-    git: "https://github.com/KrishnaM0310/SaveDontStress",
-    src: proj3,
-    type: "Full Stack",
+    desc: "These are a collection of Neural Network projects that I have completed, or am currently working on! Feel free to check them out!",
+    devstack: "Python",
+    link: "https://github.com/KrishnaM0310/Neural-Network-Projects",
+    git: "https://github.com/KrishnaM0310/Neural-Network-Projects",
+    src: proj1,
+    type: "Backend",
   },
   {
     title: "Neurative",
     desc: "Neurative is a research project I completed with 2 other students, focusing on the lack of medical treatments for Epilepsy, and use of acoustic hologram treatment to improve patient care and treatments.",
     git:"https://github.com/KrishnaM0310",
     link: "https://medium.com/@krishnamehta0310/neurative-curing-epilepsy-using-acoustic-holograms-c75a5acfda85",
-    src: proj4,
+    src: proj2,
     type: "Research",
   },
   {
@@ -56,7 +36,7 @@ const projects = [
     devstack: "Figma",
     link: "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2F30JR89knvxYxn4UAMINwFtXNMyt2%2FWalmart%20.pptx%20.pdf?alt=media&token=7c740450-c1f1-419f-8233-2ea5b4d248e9",
     git: "#",
-    src: proj5,
+    src: proj3,
     type: "Project Management/Consulting",
   },
   {
@@ -65,7 +45,7 @@ const projects = [
     devstack: "Figma",
     link: "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FEqgODVr2eNTjKcO81i2jHW1g1Ni1%2FSwitch%20Health%20TKS%20Challenge.pdf?alt=media&token=c36797ca-f12e-48d0-91bc-28d05f7820b4",
     git: "#",
-    src: proj6,
+    src: proj4,
     type: "Project Management/Consulting",
   },
   {
@@ -74,7 +54,7 @@ const projects = [
     devstack: "React, Tailwind CSS, Javascript, Framer Motion",
     link: "#",
     git: "https://github.com/KrishnaM0310/Krishna-Portfolio/tree/main",
-    src: proj7,
+    src: proj5,
     type: "frontend",
   },
 ];
