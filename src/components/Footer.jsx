@@ -17,9 +17,9 @@ export const Footer = () => {
             <a
               className="md:text-7xl text-3xl font-semibold text-white underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-200 transition duration-300"
-              href="mailto:krishnamehta0310@gmail.com"
+              href="mailto:k54mehta@uwaterloo.ca"
             >
-              krishnamehta0310@gmail.com
+              k54mehta@uwaterloo.ca
             </a>
           </div>
         </div>
