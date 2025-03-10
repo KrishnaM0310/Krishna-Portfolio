@@ -1,11 +1,13 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import proj1 from "../assets/images/neuralnetwork.jpg";
+import proj1 from "../assets/images/icon.png";
 import proj2 from "../assets/images/neurative.webp";
 import proj3 from "../assets/images/walmart.png";
 import proj4 from "../assets/images/switchhealth.jpg";
 import proj5 from "../assets/images/websitepic.png";
+import proj6 from "../assets/images/dog.png";
+import proj7 from "../assets/images/sds.png";
 
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -14,13 +16,31 @@ import { FiChevronDown } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Fur and Friends",
-    desc: "These are a collection of Neural Network projects that I have completed, or am currently working on! Feel free to check them out!",
-    devstack: "Python",
-    link: "https://github.com/KrishnaM0310/Neural-Network-Projects",
-    git: "https://github.com/KrishnaM0310/Neural-Network-Projects",
+    title: "Mission Complete - AI Powered Chrome Extension",
+    desc: "an AI-powered Chrome extension that blocks distractions by analyzing browsing behavior in real time.",
+    devstack: "Python, Flask, Javascript, HTML/CSS, GCP ",
+    link: "https://github.com/KrishnaM0310/mission-complete",
+    git: "https://github.com/KrishnaM0310/mission-complete",
     src: proj1,
-    type: "Backend",
+    type: "Full-Stack",
+  },
+  {
+    title: "Fur and Friends",
+    desc: "Created a full-stack web application to connect the elderly with volunteers and therapy pets to reduce elder loneliness",
+    devstack: "MongoDB, React.js, Node,js, Javascript, TensorFlow.js, spaCy ",
+    link: "https://github.com/KrishnaM0310/Fur-and-friends",
+    git: "https://github.com/KrishnaM0310/Fur-and-friends",
+    src: proj6,
+    type: "Full-Stack",
+  },
+  {
+    title: "Save, Don't Stress",
+    desc: "Developed a full-stack web app to help users find the cheapest grocery items near them to tackle increasing grocery prices.",
+    devstack: "React.js, CSS, Node.js, Express, GCP",
+    link: "https://github.com/KrishnaM0310/SaveDontStress",
+    git: "https://github.com/KrishnaM0310/SaveDontStress",
+    src: proj7,
+    type: "Full-Stack",
   },
   {
     title: "Neurative",
